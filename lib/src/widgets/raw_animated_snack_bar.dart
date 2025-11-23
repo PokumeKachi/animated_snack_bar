@@ -48,6 +48,12 @@ class RawAnimatedSnackBarState extends State<RawAnimatedSnackBar> {
     }
   }
 
+  void hide() {
+    setState(() {
+      isVisible = false;
+    });
+  }
+
   Future<void> fadeOut() {
     opacity = 0;
     setState(() {});

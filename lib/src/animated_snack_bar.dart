@@ -161,9 +161,7 @@ class AnimatedSnackBar {
 
   void hide() {
     final rawState = info.key.currentState;
-    rawState?.setState(() {
-      rawState!.isVisible = false;
-    });
+    rawState?.hide();
   }
 
   /// This method will create an overlay for your snack bar
