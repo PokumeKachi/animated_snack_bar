@@ -159,6 +159,13 @@ class AnimatedSnackBar {
     info.entry.remove();
   }
 
+  void hide() {
+    final rawState = info.key.currentState;
+    rawState?.setState(() {
+      rawState!.isVisible = false;
+    });
+  }
+
   /// This method will create an overlay for your snack bar
   /// and insert it to the overlay entries of navigator.
   void show(BuildContext context) {
