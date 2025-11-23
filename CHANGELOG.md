@@ -1,3 +1,7 @@
+## 0.4.1
+
+- Add: `AnimatedSnackBar.hide()` method to remove the snack bar with animations
+
 ## 0.4.0
 
 - Breaking change: `AnimatedSnackBar().show(BuildContext context)` is not a `Future` anymore
