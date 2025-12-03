@@ -49,7 +49,7 @@ class AnimatedSnackBar {
   /// Specifies the appearance of the snackbar for xy edges of screen
   /// for any [MobileSnackBarPosition]
   ///
-  /// [MobilePositionSettings.topOnAppearance], [MobilePositionSettings.topOnDissapear]
+  /// [MobilePositionSettings.topOnAppearance], [MobilePositionSettings.topOnDisappearance]
   /// Specifies the appearance of the snackbar for dy edges of screen
   /// settings for [MobileSnackBarPosition.top]
   ///

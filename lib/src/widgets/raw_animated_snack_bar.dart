@@ -110,7 +110,7 @@ class RawAnimatedSnackBarState extends State<RawAnimatedSnackBar> {
           return widget.mobilePositionSettings.topOnAppearance +
               widget.getInitialDy();
         } else {
-          return widget.mobilePositionSettings.topOnDissapear;
+          return widget.mobilePositionSettings.topOnDisappearance;
         }
       } else if (widget.mobileSnackBarPosition ==
           MobileSnackBarPosition.bottom) {
